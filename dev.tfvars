@@ -1,2 +1,2 @@
-animal_name_length = 3
-pet_name_length    = 2
+animal_name_length = 11
+pet_name_length    = 4
