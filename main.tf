@@ -9,13 +9,13 @@ terraform {
 variable "pet_name_length" {
   type        = number
   description = "Number of words in pet name"
-  default     = 2
+ # default     = 2
 }
 
 variable "animal_name_length" {
   type        = number
   description = "Number of words in animal name"
-  default     = 3
+#  default     = 3
 }
 
 resource "random_pet" "pet_name" {
