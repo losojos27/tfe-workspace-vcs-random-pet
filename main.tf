@@ -30,6 +30,6 @@ resource "random_pet" "animal_name" {
   length = var.animal_name_length
 }
 
-output "animal_name" {
+output "animal_names" {
   value = random_pet.animal_name.id
 }
